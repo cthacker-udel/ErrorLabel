@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-error-label",
+  "version": "1.0.0",
+  "description": "Wrapper over react-bootstrap's Form.Label to provide ease-of-use when displaying errors on forms",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cthacker-udel/ErrorLabel.git"
+  },
+  "keywords": [
+    "react-bootstrap",
+    "Form.Label",
+    "typescript",
+    "react",
+    "css",
+    "error-display",
+    "errors"
+  ],
+  "author": "cthacker-udel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cthacker-udel/ErrorLabel/issues"
+  },
+  "homepage": "https://github.com/cthacker-udel/ErrorLabel#readme",
+  "dependencies": {
+    "@types/react": "^18.2.24",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.0"
+  }
+}
