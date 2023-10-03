@@ -1,12 +1,27 @@
-import React from "react";
+import React, { type ReactNode } from "react";
 import { Form } from "react-bootstrap";
 
 import styles from "./ErrorLabel.module.css";
 
+/**
+ * The properties of the ErrorLabel component
+ */
 type ErrorLabelProperties = {
-  readonly content: string;
+  /**
+   * The content of the Error Label, aka the label text itself
+   */
+  readonly content: string | ReactNode;
+  /**
+   * Whether to display the error
+   */
   readonly displayError?: boolean;
-  readonly error?: string;
+  /**
+   * The error in question, which will be displayed alongside the error
+   */
+  readonly error?: string | ReactNode;
+  /**
+   * The CSS className override that allows for the user to override the styles of the form label
+   */
   readonly formLabelClassName?: string;
 };
 
